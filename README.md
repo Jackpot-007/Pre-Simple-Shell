@@ -15,4 +15,4 @@ Desglose:
 - echo: Imprime algo en pantalla.
 - $$: Es una variante especial que contiene el PID del proceso actual (tu Shell o Script).
 
-- /proc/sys/kernel/pid_max: Es un archivo del sistema Linux que te dice cuál es el número más alto que un proceso puede tener como PID.
+- /proc/sys/kernel/pid_max: Es un archivo del sistema Linux que te dice cuál es el número más alto que un proceso puede te como PID.
