@@ -1,4 +1,4 @@
-Para recordar :V
+Para recordar UwU
 
 
 - Shell: Es un interprete de comandos.
@@ -12,11 +12,11 @@ Para recordar :V
 - echo $$: Es un comando en Shell (como Bash) que muestra el PID del proceso actual que es el ID del Shell que estás usando en ese momento.
 Desglose:
 
-- echo: Imprime algo en pantalla.
-- $$: Es una variante especial que contiene el PID del proceso actual (tu Shell o Script).
+1- echo: Imprime algo en pantalla.
+2- $$: Es una variante especial que contiene el PID del proceso actual (tu Shell o Script).
 
-- /proc/sys/kernel/pid_max: Es un archivo del sistema Linux que te dice cuál es el número más alto que un proceso puede te como PID.
+3- /proc/sys/kernel/pid_max: Es un archivo del sistema Linux que te dice cuál es el número más alto que un proceso puede te como PID.
 
-- fork(): Crea un nuevo proceso hijo, idéntico al padre.
+4- fork(): Crea un nuevo proceso hijo, idéntico al padre.
 
 - 
