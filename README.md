@@ -1,21 +1,44 @@
-Para recordar.
+"Para recordar" UwU
 
 
 - Shell: Es un interprete de comandos.
 
-- PID: (Process ID) y es un número único que identifica a cada proceso en ejecución en el sistema.
+- PID (Process ID): Es el identificador único de un proceso en ejecución en el sistema operativo.
 
-- PPID: Es el PID del proceso padre del que creó al proceso actual.
+- PPID (Parent Process ID): Es el PID del proceso que lo creó. Es su proceso "padre".
 
-- Getppid: Obtiene el ID del proceso padre.
+- getpid(): Te da el identificador único del proceso actual.
 
-- echo $$: Es un comando en Shell (como Bash) que muestra el PID del proceso actual que es el ID del Shell que estás usando en ese momento.
-Desglose:
+- getppid(): Obtiene el ID del proceso padre y te dice cuál es su proceso de origen.
 
-1- echo: Imprime algo en pantalla.
-2- $$: Es una variante especial que contiene el PID del proceso actual (tu Shell o Script).
+- getline(): Lee una línea de texto, ajustando el espacio automáticamente.
 
-3- /proc/sys/kernel/pid_max: Es un archivo del sistema Linux que te dice cuál es el número más alto que un proceso puede te como PID.
+- echo $$: Muestra el PID del Shell actual.
 
-4- fork(): Crea un nuevo proceso hijo, idéntico al padre.
+- /proc/sys/kernel/pid_max: Indica el PID máximo permitido en Linux.
+
+- argc: Es la cantidad de "elementos" que recibe el programa al iniciarse.
+
+- argv: Es la lista de los argumentos individuales que el programa recibe.
+
+- getline(): Sirve para leer una línea completa de texto.
+
+- read(): Toma datos de una fuente (ej: teclado, archivo).
+
+- fork(): Crea un nuevo proceso hijo, idéntico al padre.
+
+- execve(): Reemplaza el programa actual por uno nuevo.
+
+- syscall(): Es una petición de un programa al sistema operativo para una tarea especial.
+
+- Environment (Entorno): Son las configuraciones y datos disponibles para un programa.
+
+- strtok(): Sirve para partir un texto largo en pedacitos, usando un separador.
+
+- wait(): Hace que un programa espere a que otro termine antes de seguir.
+
+- /bin/ls: Es la ruta absoluta o completa donde se encuentra el programa "ls".
+
+- ls: El nombre del comando que el sistema busca en la variable de entorno PATH.
+
 - 
