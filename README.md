@@ -1,4 +1,4 @@
-Para recordar UwU
+Para recordar.
 
 
 - Shell: Es un interprete de comandos.
@@ -18,5 +18,4 @@ Desglose:
 3- /proc/sys/kernel/pid_max: Es un archivo del sistema Linux que te dice cuál es el número más alto que un proceso puede te como PID.
 
 4- fork(): Crea un nuevo proceso hijo, idéntico al padre.
-
 - 
