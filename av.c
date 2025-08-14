@@ -8,12 +8,17 @@
  */
 
 int main(int ac, char **av) {
-	int i = 1;
+	
+	int a;
 
-	while (av[i] != NULL)
-	{
-		printf("%s\n", av[i]);
-		i++;
+	while (av[a] != NULL) {
+		printf("Conteo: %d: %s\n", a, av[a]);
+		a++;
+	}
+
+	if (av[a] == NULL) {
+		printf("Count end: %d: %s\n", a, av[a]);
+	return (0);	
 	}
 	return (0);
 }
