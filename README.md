@@ -29,16 +29,30 @@
   
 - execve(): Reemplaza el programa actual por uno nuevo.
   
-- syscall(): Es una petición de un programa al sistema operativo para una tarea especial.
+- syscall(): Es una petición de un programa al sistema operativo para una tarea en especifico.
   
-- Environment (Entorno): Son las configuraciones y datos disponibles para un programa.
+- Environment (Entorno): Es el conjunto general de configuraciones disponibles para un programa.
+
+- Environ: Es la variable específica (en C) que los programas usan para acceder a ese environment.
   
 - strtok(): Sirve para partir un texto largo en pedacitos, usando un separador.
   
 - wait(): Hace que un programa espere a que otro termine antes de seguir.
 
-- /bin/ls: Es la ruta absoluta o completa donde se encuentra el programa "ls".
+- /bin/ls: Es la ruta absoluta o completa donde se encuentra el programa "ls" en el directorio "/bin".
 
-- ls: El nombre del comando que el sistema busca en la variable de entorno PATH.
+- ls: Es el nombre del comando que el sistema busca en la variable de entorno PATH.
 
-- 
+- wait(): Hace que el proceso padre se bloquee hasta que uno de sus hijos termine, y devuelve el PID de ese hijo.
+
+- waitpid(pid, ... ): Es igual que wait(), pero te permite esperar a un hijo específico.
+
+- stat(): Es una llamada al sistema que obtiene información sobre un archivo que puede ser el (tamaño y tipo del archivo, permisos, fecha de creacion, etc).
+
+- getenv(): Es una función que te permite obtener el valor de una variable de entorno.
+
+- setenv(): Es una función que usan los programas para crear o cambiar el valor de una variable de entorno.
+
+- unsetenv: Es una función que usan los programas para eliminar una variable de entorno existente.
+
+- kill(): Envía una señal a un proceso, generalmente para detenerlo puede ser (inmediata o no) depende de la señal enviada.
