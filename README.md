@@ -27,7 +27,9 @@
   
 - fork(): Crea un nuevo proceso hijo, idéntico al padre.
   
-- execve(): Reemplaza el programa actual por uno nuevo.
+- execve(): Ejecuta un programa dado por ruta completa, recibe argumentos (argv) y variables de entorno (envp).
+
+- execvp(): Igual que execve, pero busca el ejecutable en las rutas del PATH y usa automáticamente el entorno del proceso.
   
 - syscall(): Es una petición de un programa al sistema operativo para una tarea en especifico.
   
