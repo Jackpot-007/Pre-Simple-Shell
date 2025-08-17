@@ -1,7 +1,7 @@
 "Para recordar" UwU
 
 
-- Shell: Es un interprete de comandos.
+- Shell: Es un interprete de comandos que permite al usuario interactuar directamente con el sistema operativo.
 
 - PID (Process ID): Es el identificador único de un proceso en ejecución en el sistema operativo.
   
