@@ -9,30 +9,30 @@
  */
 int main(void)
 {
-	char *lineptr = NULL; /* Puntero para almacenar la línea leída del uario */
-	size_t n = 0; /* Variable para el tamaño del buffer de linept */
-	ssize_t input; /* Variable para almacenar el número de caractere leído */
+	char *lineptr = NULL; /* Puntero para almacenar la linea leida del usuario */
+	size_t n = 0; /* Variable para el tama�o del buffer de lineptr */
+	ssize_t input; /* Variable para almacenar el numero de caracter leido */
 
 	while (1) /* Bucle infinito para mantener el shell activo */
 	{
-		printf("Stranger Strings> "); /* Imprime el prompt en la terminal */
-		input = getline(&lineptr, &n, stdin); /* Lee la línea de entrada del usuari */
+		printf("Stranger Strings> "); /* Prompt */
+		input = getline(&lineptr, &n, stdin); /* Lee la linea de entrada del usuario */
 
 		if (input == -1) /* Verifica si hubo error o fin de archivo (EOF) al leer */
-			break; /* Sale del bucle infinito si hay error o EOF */
+			break; /* EOF o error */
 
 		if (lineptr[input - 1] == '\n') /* Eliminar salto de linea al final */
-			lineptr[input - 1] = '\0'; /* Reemplaza el salto de línea al final por un nulo */
+			lineptr[input - 1] = '\0'; /* Reemplaza el salto de linea al final por un nulo */
 
 		if (strcmp(lineptr, "exit") == 0) /* Compara si la entrada es "exit" */
-			break; /* Sale del bucle si el usuario escribió "exit*/
+			break; /* Sale del bucle si el usuario escribio "exit" */
 
-		if (lineptr[0] == '\0') /* Comprueba si la línea está vac�(primer caracter nulo) */
-			continue; /* Salta a la siguiente iteración del bucl */
+		if (lineptr[0] == '\0') /* Comprueba si la linea esta vacia (primer caracter nulo) */
+			continue; /* Salta a la siguiente iteracion del bucle */
 
 		prompt(lineptr); /* Llamamos a prompt con la linea que el usuario escribe */
 	}
 
 	free(lineptr); /* Libera la memoria asignada a 'lineptr' */
-	return (0); /* Finaliza el programa con código de éxi */
+	return (0);
 }
