@@ -47,8 +47,6 @@
 
 - ls: Es el nombre del comando que el sistema busca en la variable de entorno PATH.
 
-- wait(): Hace que el proceso padre se bloquee hasta que uno de sus hijos termine, y devuelve el PID de ese hijo.
-
 - waitpid(pid, ... ): Es igual que wait(), pero te permite esperar a un hijo específico.
 
 - stat(): Es una llamada al sistema que obtiene información sobre un archivo que puede ser el (tamaño y tipo del archivo, permisos, fecha de creacion, etc).
