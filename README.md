@@ -24,6 +24,8 @@
 - argc: Es la cantidad de "elementos" que recibe el programa al iniciarse.
   
 - argv: Es la lista de los argumentos individuales que el programa recibe.
+
+- perror (): Es una función de C que imprime un mensaje de error descriptivo en la salida de error estándar basándose en el último error ocurrido en el sistema.
   
 - read(): Toma datos de una fuente (ej: teclado, archivo).
   
