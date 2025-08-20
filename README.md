@@ -15,7 +15,7 @@
 
 - getppid(): Obtiene el ID del proceso padre y te dice cuál es su proceso de origen.
   
-- getline(): Lee una línea de texto, ajustando el espacio automáticamente.
+- getline(): Sirve para leer una línea completa de texto.
   
 - echo $$: Muestra el PID del Shell actual.
   
@@ -24,8 +24,6 @@
 - argc: Es la cantidad de "elementos" que recibe el programa al iniciarse.
   
 - argv: Es la lista de los argumentos individuales que el programa recibe.
-  
-- getline(): Sirve para leer una línea completa de texto.
   
 - read(): Toma datos de una fuente (ej: teclado, archivo).
   
