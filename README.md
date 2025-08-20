@@ -3,6 +3,10 @@
 
 - Shell: Es un interprete de comandos que permite al usuario interactuar directamente con el sistema operativo.
 
+- ¿Que hace la shell? - Interpreta tus comandos, los ejecuta y muestra los resultados.
+
+- ¿Qué es el Kernel? - Es el núcleo del sistema operativo, el "cerebro" que gestiona los recursos de hardware y software de la computadora.
+
 - PID (Process ID): Es el identificador único de un proceso en ejecución en el sistema operativo.
   
 - PPID (Parent Process ID): Es el PID del proceso que lo creó. Es su proceso "padre".
