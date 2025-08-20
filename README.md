@@ -59,4 +59,4 @@
 
 - unsetenv: Es una función que usan los programas para eliminar una variable de entorno existente.
 
-- kill(): Envía una señal a un proceso, generalmente para detenerlo puede ser (inmediata o no) depende de la señal enviada.
+- kill(): Envía una señal a un proceso para detenerlo puede ser (inmediata o no) depende de la señal enviada.
