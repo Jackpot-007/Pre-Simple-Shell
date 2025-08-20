@@ -3,7 +3,7 @@
 
 - Shell: Es un interprete de comandos que permite al usuario interactuar directamente con el sistema operativo.
 
-- ¿Que hace la shell? - Interpreta tus comandos, los ejecuta y muestra los resultados.
+- ¿Que hace la shell? - Interpreta tus comandos, los ejecuta y muestra los resultados en la terminal.
 
 - ¿Qué es el Kernel? - Es el núcleo del sistema operativo, el "cerebro" que gestiona los recursos de hardware y software de la computadora.
 
