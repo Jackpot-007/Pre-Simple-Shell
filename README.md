@@ -31,7 +31,7 @@
   
 - fork(): Crea un nuevo proceso hijo, idéntico al padre.
   
-- execve(): Ejecuta un programa dado por ruta completa, recibe argumentos (argv) y variables de entorno (envp).
+- execve(): Ejecuta un programa en la ruta absoluta, recibe argumentos (argv) y variables de entorno (envp).
 
 - envp: Es un array de punteros a cadenas (char*) que representa el entorno del proceso actual.
 
