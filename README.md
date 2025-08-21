@@ -43,7 +43,7 @@
 
 - Environ: Es la variable específica (en C) que los programas usan para acceder a ese environment.
   
-- strtok(): Sirve para partir un texto largo en tokens, usando un separador que (son los caracteres que la función busca para saber dónde "cortar" el texto).
+- strtok(): Sirve para partir un texto largo o palabra en tokens.
   
 - wait(): Hace que un programa espere a que otro termine antes de seguir.
 
