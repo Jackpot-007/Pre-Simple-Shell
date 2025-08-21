@@ -49,7 +49,7 @@
 
 - /bin/ls: Es la ruta absoluta o completa donde se encuentra el programa "ls" en el directorio "/bin".
 
-- ls: Es el nombre del comando que el sistema busca en la variable de entorno PATH.
+- ls: Es el comando que el sistema busca en la variable de entorno PATH.
 
 - waitpid(pid, ... ): Es igual que wait(), pero te permite esperar a un hijo específico.
 
