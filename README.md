@@ -1,13 +1,13 @@
 "Para recordar" UwU
 
 
-- Shell: Es un interprete de comandos que permite al usuario interactuar directamente con el sistema operativo.
+- Shell: Es un interprete de comandos que permite al usuario interactuar directamente en el S.O.
 
 - ¿Que hace la shell? - Interpreta tus comandos, los ejecuta y muestra los resultados en la terminal.
 
-- ¿Qué es el Kernel? - Es el núcleo del sistema operativo, el "cerebro" que gestiona los recursos de hardware y software de la computadora.
+- ¿Qué es el Kernel? - Es el núcleo del S.O, el "cerebro" que gestiona los recursos de hardware y software de la computadora.
 
-- PID (Process ID): Es el identificador único de un proceso en ejecución en el sistema operativo.
+- PID (Process ID): Es el identificador único de un proceso en ejecución en el S.O.
   
 - PPID (Parent Process ID): Es el PID del proceso que lo creó por lo cual es el proceso "padre".
   
@@ -39,7 +39,7 @@
   
 - syscall(): Es una petición de un programa al sistema operativo para una tarea en especifico.
   
-- Environment (Entorno): Es un conjunto de variables de entorno que proporcionan información y configuración a los programas y al sistema operativo.
+- Environment (Entorno): Es un conjunto de variables de entorno que proporcionan información y configuración a los programas y al S.O.
 
 - Environ: Es la variable específica (en C) que los programas usan para acceder a ese environment.
   
