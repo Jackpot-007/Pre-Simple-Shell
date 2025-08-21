@@ -9,7 +9,7 @@
 
 - PID (Process ID): Es el identificador único de un proceso en ejecución en el sistema operativo.
   
-- PPID (Parent Process ID): Es el PID del proceso que lo creó por lo cual es proceso "padre".
+- PPID (Parent Process ID): Es el PID del proceso que lo creó por lo cual es el proceso "padre".
   
 - getpid(): Te da el identificador único del proceso actual.
 
