@@ -39,7 +39,7 @@
   
 - syscall(): Es una petición de un programa al sistema operativo para una tarea en especifico.
   
-- Environment (Entorno): Es un conjunto de variables de entorno que proporcionan información y configuración a los programas y al S.O.
+- Environment (Entorno): Es un conjunto de variables de entorno que proporcionan información a la configuración de los programas y al S.O.
 
 - Environ: Es la variable específica (en C) que los programas usan para acceder a ese environment.
   
