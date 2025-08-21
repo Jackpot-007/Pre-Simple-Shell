@@ -53,7 +53,7 @@
 
 - waitpid(pid, ... ): Es igual que wait(), pero te permite esperar a un hijo específico.
 
-- stat(): Es una llamada al sistema que obtiene información sobre un archivo que puede ser el (tamaño y tipo del archivo, permisos, fecha de creacion, etc).
+- stat(): Es una llamada al sistema que obtiene información sobre un archivo que puede ser el (tamaño, el tipo de archivo, permisos, fecha de creacion, etc).
 
 - getenv(): Es una función que te permite obtener el valor de una variable de entorno.
 
