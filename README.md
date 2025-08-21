@@ -35,7 +35,7 @@
 
 - envp: Es un array de punteros a cadenas (char*) que representa el entorno del proceso actual.
 
-- execvp(): Igual que execve, pero busca el ejecutable en las rutas del PATH y usa automáticamente el entorno del proceso.
+- execvp(): Igual que execve, pero busca el ejecutable en el PATH y usa automáticamente el entorno del proceso.
   
 - syscall(): Es una petición de un programa al sistema operativo para una tarea en especifico.
   
